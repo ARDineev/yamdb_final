@@ -1,0 +1,1 @@
+[{"model": "reviews.Category", "pk": "1", "fields": {"name": "\u0424\u0438\u043b\u044c\u043c", "slug": "movie"}}, {"model": "reviews.Category", "pk": "2", "fields": {"name": "\u041a\u043d\u0438\u0433\u0430", "slug": "book"}}, {"model": "reviews.Category", "pk": "3", "fields": {"name": "\u041c\u0443\u0437\u044b\u043a\u0430", "slug": "music"}}]
