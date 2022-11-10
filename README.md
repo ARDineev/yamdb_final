@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/ARDineev/yamdb_final/workflows/tests/badge.svg)](https://github.com/ARDineev/yamdb_final/actions)  
+[![Build Status](https://github.com/ARDineev/yamdb_final/workflows/Django-app%20workflow/badge.svg)](https://github.com/ARDineev/yamdb_final/actions)  
 # Проект «YaMDb»
 ### Описание
 Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles).  

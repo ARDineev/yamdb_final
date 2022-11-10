@@ -30,7 +30,7 @@ jobs:
         # перейти в папку, содержащую manage.py — 
         #<корневая_папка_infra_actions>/<папка_проекта>/manage.py
         # запустить написанные разработчиком тесты
-        # python -m pytest tests/
+        python -m pytest tests/
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
@@ -81,6 +81,7 @@ jobs:
             echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
             echo DB_HOST=${{ secrets.DB_HOST }} >> .env
             echo DB_PORT=${{ secrets.DB_PORT }} >> .env
+            echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
             sudo docker-compose up -d 
   send_message:
     runs-on: ubuntu-latest
